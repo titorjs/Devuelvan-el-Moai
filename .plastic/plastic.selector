@@ -1,0 +1,4 @@
+repository "¡Devuelvan el Moai!@titoj740@cloud"
+  path "/"
+    br "/main"
+    co "/main"
