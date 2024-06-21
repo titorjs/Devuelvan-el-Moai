@@ -7,7 +7,7 @@ public class TilesGenerator : MonoBehaviour
 {
     public GameObject tile;
     Vector3 nextSpawn;
-    private int tileCount;
+    public static int tileCount;
 
 
     public void SpawnTile()
@@ -23,6 +23,7 @@ public class TilesGenerator : MonoBehaviour
         tileCount = 0;
         for (int i = 0; i < Constants.initialTails; i++)
         {
+
             SpawnTile();
         }
     }
